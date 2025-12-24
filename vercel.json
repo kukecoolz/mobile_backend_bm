@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/media/signed-url", "destination": "/api/media/signed-url" },
+    { "source": "/checkout", "destination": "/api/checkout" },
+    { "source": "/verify-payment", "destination": "/api/verify-payment" },
+    { "source": "/me/orders", "destination": "/api/me/orders" },
+    { "source": "/download/:token/song/:songId", "destination": "/api/download/:token/song/:songId" },
+    { "source": "/download/:token/album/:albumId", "destination": "/api/download/:token/album/:albumId" }
+  ]
+}
